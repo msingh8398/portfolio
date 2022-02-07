@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-week3",
+  "name": "monika-kumari",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -20,6 +20,18 @@
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
- 
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhmoni/portfolio.git"
+  },
+  "author": "monika kumari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhmoni/portfolio/issues"
+  },
+  "homepage": "https://github.com/singhmoni/portfolio#readme",
+  "description": "portfolio"
 }

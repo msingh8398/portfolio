@@ -1,0 +1,73 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      
+    </div>
+    <div class="card" style="background-color:grey; border-color:white;">
+  <img class="card-img-top" src="holder.js/100x180/" alt="">
+  <div class="card-body">
+    <h4 class="card-title">Monika Kumari (301225003)</h4> <!--Student id -->
+    <p class="card-title">Mobile no- +91 7988365476</p>
+  </div>
+  <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Mail id- ms9068680687@gmail.com</h4>
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationCustom01" value="" required>
+        <div class="valid-feedback">
+          
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationCustom02" value="" required>
+        <div class="valid-feedback">
+          
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">contact no.</label>
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend"></span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">Email-id</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid Email-id.
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <label for="validationCustom05" class="form-label">Message</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          
+        </div>
+      </div>
+      
+      <div class="col-12">
+        <button  href="D:\asmnt1\views\index.ejs" class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </form>
+    
+</div>
+
+  </main>
+  
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
